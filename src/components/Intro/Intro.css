@@ -1,0 +1,30 @@
+#intro {
+    height: calc(100vh - 4rem);
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.pic {
+    flex: 1;
+    height: 50%;
+    max-width: 50%;
+    object-fit: cover;
+    margin-top: 10rem;
+}
+
+.introContent {
+    flex: 2;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introText {
+    font-size: 1.75rem;
+    font-weight: 100;
+}

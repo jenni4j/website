@@ -1,0 +1,40 @@
+.navbar {
+  background: #F5F5F5;
+  height: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  font-size: 25px;
+}
+  
+  .navbarMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .linksItem {
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  .linksItem:hover {
+    border-bottom: 1px solid black;
+  }
+  
+ 
+  
+
+  
+  
+  
+  
