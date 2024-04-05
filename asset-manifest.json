@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.c7d18e0d.css",
+    "main.js": "/website/static/js/main.ff2e0de3.js",
+    "static/js/787.c922dae8.chunk.js": "/website/static/js/787.c922dae8.chunk.js",
+    "static/media/profile-pic.png": "/website/static/media/profile-pic.6d3b1d843236751dc7cf.png",
+    "static/media/fox.jpeg": "/website/static/media/fox.8f10f7929d240c1eabef.jpeg",
+    "static/media/flood-image.jpeg": "/website/static/media/flood-image.d70b82bde93430670f1b.jpeg",
+    "static/media/Ubuntu-Light.ttf": "/website/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
+    "static/media/malignant.jpeg": "/website/static/media/malignant.3f7c7f060b9549dea911.jpeg",
+    "static/media/Ubuntu-Regular.ttf": "/website/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/website/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/dog-breed.jpeg": "/website/static/media/dog-breed.e8ab951cfeef5f438037.jpeg",
+    "static/media/github-logo.png": "/website/static/media/github-logo.bf85ce05ac42dffc229a.png",
+    "index.html": "/website/index.html",
+    "main.c7d18e0d.css.map": "/website/static/css/main.c7d18e0d.css.map",
+    "main.ff2e0de3.js.map": "/website/static/js/main.ff2e0de3.js.map",
+    "787.c922dae8.chunk.js.map": "/website/static/js/787.c922dae8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7d18e0d.css",
+    "static/js/main.ff2e0de3.js"
+  ]
+}
