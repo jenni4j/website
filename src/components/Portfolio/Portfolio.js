@@ -25,8 +25,8 @@ function Portfolio() {
                             <h2>Real Time Object Detection</h2>
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
-                        <p>Set up a Raspberry Pi device to run a MobileNet v2 classification model via Pytorch in order to perform real time object detection as
-                            part of a Vertically Integrated Project at Georgia Tech with other engineering and economics students. The project goal was to design and
+                        <p>Set up a Raspberry Pi device to run a pre-trained MobileNetV2 model in order to perform real time image classification as
+                            part of a Vertically Integrated Project at Georgia Tech. The project goal was to design and
                             implement a device that distributes vaccine biscuits to foxes on campus when detected by a camera. 
                         </p>
                     </div>
