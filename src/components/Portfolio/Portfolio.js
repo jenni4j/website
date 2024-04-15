@@ -18,20 +18,20 @@ function Portfolio() {
         <section id='portfolio'>
             <span className="portfolioTitle"></span>
             <span className="portfolioContent">
-            <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/object-detection-rpi')}>
+            <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Real-Time-Animal-Classification')}>
                     <img src={FoxImage} alt="" className="portfolioItemImg" />  
                     <div className="portfolioItemText">
                         <div className="portfolioItemHeader">
-                            <h2>Real Time Object Detection</h2>
+                            <h2>Real Time Animal Classification</h2>
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
-                        <p>Set up a Raspberry Pi device to run a pre-trained MobileNetV2 model in order to perform real time image classification as
+                        <p>Set up a Raspberry Pi device to run a pretrained MobileNetV2 model in order to perform real time image classification as
                             part of a Vertically Integrated Project at Georgia Tech. The project goal was to design and
                             implement a device that distributes vaccine biscuits to foxes on campus when detected by a camera. 
                         </p>
                     </div>
                 </div>
-                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Flood-Detection')}>
+                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Satellite-Flooding-Segmentation')}>
                     <img src={FloodImage} alt="" className="portfolioItemImg" />  
                     <div className="portfolioItemText">
                         <div className="portfolioItemHeader">
