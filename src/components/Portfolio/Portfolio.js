@@ -39,9 +39,8 @@ function Portfolio() {
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
                         <p>Final project for a deep learning course at Georgia Tech. 
-                            Various fully convolutional network architectures were implemented and trained to 
-                            create segmentation maps of flooded areas. A vision transformer pretrained on generic satellite data 
-                            was also used to compare and improve base performance.</p>
+                            Implemented and trained various fully convolutional network architectures to create segmentation maps of flooded areas. 
+                            Additionally used a vision transformer pretrained on generic satellite data to compare and improve base performance.</p>
                     </div>
                 </div>
                 <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Kaggle-Breast-Cancer/')}>
