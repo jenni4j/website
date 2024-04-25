@@ -5,7 +5,6 @@ import FoxImage from "./fox.jpeg";
 import DogImage from "./dog-breed.jpeg";
 import MLImage from "./ml-safety.jpeg";
 import CancerImage from "./malignant.jpeg";
-import StockImage from "./stock-chart.jpeg";
 import GitHubIcon from "./github-logo.png";
 
 function Portfolio() {
@@ -72,16 +71,6 @@ function Portfolio() {
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
                         <p>A repository with completed assignments from an Introduction to Machine Learning Safety course hosted by the Center for AI Safety.</p>
-                    </div>
-                </div>
-                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/optionality')}>
-                    <img src={StockImage} alt="" className="portfolioItemImg" />  
-                    <div className="portfolioItemText">
-                        <div className="portfolioItemHeader">
-                            <h2>Optionality</h2>
-                            <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
-                        </div>
-                        <p>In progress full-stack website for creating investing strategies based on options and other financial instruments.</p>
                     </div>
                 </div>
             </span>
