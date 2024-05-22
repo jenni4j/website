@@ -6,6 +6,7 @@ import DogImage from "./dog-breed.jpeg";
 import MLImage from "./ml-safety.jpeg";
 import CancerImage from "./malignant.jpeg";
 import GitHubIcon from "./github-logo.png";
+import PaperImage from "./paperbot.png"
 
 function Portfolio() {
 
@@ -40,6 +41,18 @@ function Portfolio() {
                         <p>Final project for a deep learning course at Georgia Tech. 
                             Implemented and trained various fully convolutional network architectures to create segmentation maps of flooded areas. 
                             Additionally used a vision transformer pretrained on generic satellite data to compare and improve base performance.</p>
+                    </div>
+                </div>
+                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Research-Paper-Bot')}>
+                    <img src={PaperImage} alt="" className="portfolioItemImg" />  
+                    <div className="portfolioItemText">
+                        <div className="portfolioItemHeader">
+                            <h2>PDF ChatBot</h2>
+                            <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
+                        </div>
+                        <p>Reading through pdfs is a constant in my life and sometimes I can't help but wish I could interact with the pdf more efficiently. 
+                            This wish resulted in a web app that allows users to upload a pdf, ask questions related to the pdf and get a response in real time.
+                            Built using React, Python, & Langchain.</p>
                     </div>
                 </div>
                 <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Kaggle-Breast-Cancer/')}>
