@@ -62,7 +62,8 @@ function Portfolio() {
                             <h2>Automatic Diagnosis of Breast Cancer</h2>
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
-                        <p>In progress academic Kaggle competition where the aim is to implement a model able to automatically discriminate malignant from benign lesions in breast ultrasound images.</p>
+                        <p>Submission to Kaggle competition for automatically discriminating malignant from benign lesions in breast ultrasound images using a
+                            non-pretrained model.</p>
                     </div>
                 </div>
                 <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Kaggle-Dog-Breed-Identification/')}>
