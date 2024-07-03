@@ -6,7 +6,8 @@ import DogImage from "./dog-breed.jpeg";
 import MLImage from "./ml-safety.jpeg";
 import CancerImage from "./malignant.jpeg";
 import GitHubIcon from "./github-logo.png";
-import PaperImage from "./paperbot.png"
+import PaperImage from "./paperbot.png";
+import NotionImage from "./notion-search.png";
 
 function Portfolio() {
 
@@ -53,6 +54,17 @@ function Portfolio() {
                         <p>Reading through pdfs is a constant in my life and sometimes I can't help but wish I could interact with the pdf more efficiently. 
                             This wish resulted in a web app that allows users to upload a pdf, ask questions related to the pdf and get a response in real time.
                             Built using React, Python, & Langchain.</p>
+                    </div>
+                </div>
+                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Notion-Search-Tool')}>
+                    <img src={NotionImage} alt="" className="portfolioItemImg" />  
+                    <div className="portfolioItemText">
+                        <div className="portfolioItemHeader">
+                            <h2>Notion Semantic Search</h2>
+                            <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
+                        </div>
+                        <p>Looking through hundreds of saved links in Notion can be difficult just using keyword search. This tool allows for searching semantically
+                            (searching by topic or meaning) rather than exact text matching. Built using the Cohere API, React and Python.</p>
                     </div>
                 </div>
                 <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Kaggle-Breast-Cancer/')}>
