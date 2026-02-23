@@ -2,7 +2,6 @@ import React from "react";
 import "./Portfolio.css";
 import FloodImage from "./flood-image.jpeg";
 import FoxImage from "./fox.jpeg";
-import DogImage from "./dog-breed.jpeg";
 import MLImage from "./ml-safety.jpeg";
 import CancerImage from "./malignant.jpeg";
 import GitHubIcon from "./github-logo.png";
