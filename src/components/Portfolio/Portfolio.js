@@ -75,18 +75,7 @@ function Portfolio() {
                             <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
                         </div>
                         <p>Submission to Kaggle competition for automatically discriminating malignant from benign lesions in breast ultrasound images using a
-                            non-pretrained model.</p>
-                    </div>
-                </div>
-                <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/Kaggle-Dog-Breed-Identification/')}>
-                    <img src={DogImage} alt="" className="portfolioItemImg" />  
-                    <div className="portfolioItemText">
-                        <div className="portfolioItemHeader">
-                            <h2>Classifying Dog Breeds</h2>
-                            <img src={GitHubIcon} alt="" className="portfolioItemIcon" />
-                        </div>
-                        <p>Used transfer learning with InceptionV3 as the base pretrained model to classify 120 different breeds of dogs as part of
-                            a Kaggle competition.</p>
+                            convolutional neural network built with Keras.</p>
                     </div>
                 </div>
                 <div className="portfolioItem" onClick={() => handleItemClick('https://github.com/jenni4j/CAIS-Intro-to-ML-Safety')}>
