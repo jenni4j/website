@@ -1,27 +1,78 @@
-#contact {
-    overflow: hidden;
-    width: 100vw;
-    max-width: 65rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 25rem;
-    margin-top: 25rem;
+.contact-section {
+  position: relative;
+  background: var(--dark);
+  color: #fff;
+  overflow: hidden;
+  padding: 6rem 2rem 3rem;
 }
 
-
-.contactContent {
-    display: flex;
-    flex-wrap: wrap;
+.contact-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 72rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
 }
 
-.icon {
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 0 0.75rem;
-    cursor: pointer;
+/* Decorative blobs */
+.contact-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.contact-blob-1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(196, 84, 106, 0.3), transparent);
+  top: -100px;
+  left: -100px;
+}
+
+.contact-blob-2 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(61, 90, 128, 0.25), transparent);
+  bottom: -50px;
+  right: 5%;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.contact-icon-wrap:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.contact-copy {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: 3rem;
 }
